@@ -1,1 +1,28 @@
-pas mal
+*{
+    background-color: #73C2FB;
+}
+
+header div{
+    position: relative;
+}
+
+header div h1{
+    position: relative;
+    z-index: 1;
+    font-size: 100px;
+    display: flex;
+
+}
+
+header div img{
+    position: absolute;
+    z-index: 2;
+    background-color: transparent;
+    margin: auto;
+    display: flex;
+}
+
+header{
+    position: relative;
+    margin-bottom: 300px;
+}
